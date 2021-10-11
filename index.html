@@ -1,14 +1,214 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
-  <title>PORTFOLIO</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/LOGO1.jpg" />
+
+  <title>
+    Ianis POURU | A Web Developer based in France.
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+
+  <meta name="keywords" content="Html, CSS, JavaScript, React, Python" />
+  <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
-  
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+
+          <span>Ianis POURU</span>
+        </h1>
+
+        <p>A Web Developer based in France.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>SaveTheDate+ (soon)</h3>
+              <p>
+                A website for anyone want to make an appointment with the hairdresser easily .
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://savethedate.plus/" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/savethedate-plus" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/STD.PNG" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>PassX</h3>
+              <p>
+                A password generator in python, make with django .
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Django (framework)</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/dimensi0n/passX" class="link__text">
+                  Visit Project <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/dimensi0n/passX">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/PassX.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Forecaster.live</h3>
+              <p>
+                An online sports betting sharing site.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://forecasters.netlify.app/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://twitter.com/ForeCasters_">
+                  <img src="./images/twitter.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/CaptureFCL.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+
+            <p>
+              I am a young passionate dev (18yo).
+              <br>I trained as a self-taught on web technology like HTML, CSS, JavaScript, and I am training to React.js.
+              I am currently in Bachelor at <a href = "https://www.esgi.fr/campus-reims.html" target="_blank">ESGI - REIMS</a>
+              and I'm looking for a work-study.
+                
+            </p>
+
+            
+          </div>
+
+          <div class="about__photo-container">
+
+            <img class="about__photo" src="./images/MOSHED-2021-10-11-21-45-47.gif" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Do not hesitate to contact me if youwant to ask questions, or to advice me
+          , or if you have just want to say "Hi 👋" in any case feel free to Let me know. I
+          will do my best to respond back. 😊 The quickest way to reach out to
+          me is via an email.
+        </p>
+
+        <a href="mailto:ianis.pouru@gmail.com" class="btn">ianis.pouru@gmail.com</a>
+        <a href="tel:0646283890" class="btn">06 46 28 38 90</a>
+      </div>
+    </div>
+  </section>
+
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+
+      <ul class="footer__social-links">
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/MrIanis" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/ianis-pouru-b0845a209/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        &copy; 2021 - Réalisé par Ianis POURU
+      </p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
 </body>
 
 </html>
